@@ -1,1 +1,57 @@
+C:\Users\dcsUser>mkdir csc209s3
+
+C:\Users\dcsUser>cd ./csc209s3
+
 python -m venv my_env 
+
+my_env\Scripts\activate
+
+python
+
+
+Now we will dive on python 
+-----------------------------------------
+10//3 = 3 (thasamam illatha mun en)
+2**4 = 16 (2 in 4- adukku)
+9**0.5 = root 9 = 3
+(2+3)*4 = botmas in padi iyankum = 20
+2+3*4 !=20 right ? 
+
+>>> 2**100 - output varum - why naa python allow these big number 
+= 1267650600228229401496703205376
+
+>>> 0.1+0.2
+0.30000000000000004
+______________________________________________
+import math - package 
+
+math.sqrt()
+math.factorial()
+math.gcd()
+math.pi - a constant value 
+math.e - another constant value
+math.sin(math.pi/3) - pi by 3 yai sin la
+math.cos(math.pi) = -1.0
+math.radians(180)
+math.degrees(math.pi/4)
+math.log(100,10)
+
+
+
+cheak if 28 is divisible by 4
+cheak if 37 is even or odd
+find the reminder of 999 divided by 10
+in a squre one side = 6, find the area 
+in a squre one side = 11 , find the perimeter
+in a triangle sides are 3,4,5 find area 
+in a triangle base is 12 and heightis 9 , find the area
+in a circle radius is 7, find the area 
+in a circle radius is 3, find the area and circumference 
+
+
+
+
+
+
+
+
