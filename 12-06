@@ -66,3 +66,18 @@ Traceback (most recent call last):
     ~^^^^^^^
 IndexError: list index out of range
 >>> l[9999]
+len("python")
+
+range(3,15)
+range(3, 15)
+>>> range(3,15,2)
+range(3, 15, 2)
+>>> raa = list (range(3,15,2))
+>>> print(raa)
+[3, 5, 7, 9, 11, 13]
+>>> ra=list(range(3,15,3))
+>>> print(ra)
+[3, 6, 9, 12]
+
+
+
