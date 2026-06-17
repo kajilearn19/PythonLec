@@ -45,6 +45,10 @@ a=[1,2,3,4,5]
 a.insert(2,5)
 2nd index la 5 add aaha pothu 
 
+a.pop() - remove the last element
+
+
+
 
 
 
