@@ -47,6 +47,21 @@ a.insert(2,5)
 
 a.pop() - remove the last element
 
+a = {1,2,3,4}
+b = {3,4,5,6}
+a&b -- 3,4
+a|b -- 123456
+a-b -- 1 2
+
+cars={"audi","bmw","honda"}
+bike = {"bmw","honda","hero honda"}
+cars & bike
+{'bmw', 'honda'}
+cars | bike
+{'hero honda', 'audi', 'bmw', 'honda'}
+cars - bike
+{'audi'}
+
 
 
 
