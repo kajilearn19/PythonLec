@@ -1,0 +1,55 @@
+Print all even numbers from 0 to 20
+range (0,21,2)
+
+get the first five characters of "Programming"
+Get the last five characters of "Programming" in reverse order 
+
+
+[] - indexing operator 
+text [-1:-6:-1] = [start:stop:step]
+
+
+name = "John"
+name.upper() = 'JOHN'
+name.lower() = 'john'
+
+name = " John " - here the spaces hold extra spaces so in big technologies we want to remove those spaces 
+name.strip();
+
+name = "John"
+id(name) === 20303030 some number 
+if we change the name as - name=name+"peter"
+then address also changed 
+
+[_ ,_ , _]
+
+in array even we change the array but we cant see any changes in that's id - because this is mutable
+
+a=[1,2,3]
+b=a
+b.append(4)
+b
+[1, 2, 3, 4]
+a
+[1, 2, 3, 4]
+id(a)
+1918919840128
+id(b)
+1918919840128
+
+=== here antha 2 array yum same memory location thaan  (copy illai)
+
+so b=a.copy() endaal ok 
+
+a=[1,2,3,4,5]
+a.insert(2,5)
+2nd index la 5 add aaha pothu 
+
+
+
+
+
+
+
+
+arr = np.array
