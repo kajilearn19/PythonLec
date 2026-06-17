@@ -97,11 +97,19 @@ again remove(2) run aahathu why naa anka 2 illa
 but discard is different 
 s1.discard(2) kudduthaa error kaadaathu 
 
+here dictionary 
+john = {"name":"john","age":18}
+john["name"] == 'john'
 
 Homogeneous - same type 
 Hetrogeneous - ethum irukalaam 
 
+chatgpt thaan , analyze this 
 
+tuple - () - but ellam use pannalaam 
+list - [] - inkayum ellam use panalaam
+Dictonary - {} inkayuum ellam use pannalaam 
+set - same data type thaan 
 
 
 
