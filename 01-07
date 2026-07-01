@@ -1,0 +1,472 @@
+Microsoft Windows [Version 10.0.26200.8655]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\cccuser>python
+Python 3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> num = [10,20,30]
+>>> num.append(40)
+>>> print(num)
+[10, 20, 30, 40]
+>>>
+>>> friuts = ["apple","banana","orange"]
+>>> friuts.remove("banana")
+>>> print(fruits)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'fruits' is not defined. Did you mean: 'friuts'?
+>>> friuts
+['apple', 'orange']
+>>> colours=["red","green","blue"]
+>>> colours.insert(1,"yellow")
+>>> colours
+['red', 'yellow', 'green', 'blue']
+>>> marks = [50,60,70,80]
+>>> marks.pop()
+80
+>>> letters = {"a","b","c"}
+>>> letters.add(d)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'd' is not defined. Did you mean: 'id'?
+>>> letters.add("d")
+>>> letters
+{'d', 'c', 'b', 'a'}
+>>> student = {"name":"Alice","age":20}
+>>> student
+{'name': 'Alice', 'age': 20}
+>>> fruits
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'fruits' is not defined. Did you mean: 'friuts'?
+>>> friuts
+['apple', 'orange']
+>>> fruits.remove("banana")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'fruits' is not defined. Did you mean: 'friuts'?
+>>> students
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'students' is not defined. Did you mean: 'student'?
+>>> student
+{'name': 'Alice', 'age': 20}
+>>> student["city"]="Kandy"
+>>> student
+{'name': 'Alice', 'age': 20, 'city': 'Kandy'}
+>>> employee { "id" : 101, "name":"john" , "salary" : 50000}
+  File "<stdin>", line 1
+    employee { "id" : 101, "name":"john" , "salary" : 50000}
+             ^
+SyntaxError: invalid syntax
+>>> employee = { "id" : 101, "name":"john" , "salary" : 50000}
+>>> employee
+{'id': 101, 'name': 'john', 'salary': 50000}
+>>> employee[salary]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'salary' is not defined
+>>> employee["salary"]
+50000
+>>> t1 = (10,20,30,20)
+>>> t1.count(20)
+2
+>>> t2 = (5,10,15,20)
+>>> t2.index(15)
+2
+>>> c=count
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'count' is not defined. Did you mean: 'round'?
+>>> c=t2.index(15
+... )
+>>> print(c+10)
+12
+>>> employee
+{'id': 101, 'name': 'john', 'salary': 50000}
+>>> employee[name]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'name' is not defined
+>>> employee["name"]
+'john'
+>>> employee["jhon"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'jhon'
+>>> employee["john"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'john'
+>>> employee["id"]
+101
+>>> t2
+(5, 10, 15, 20)
+>>> t2.index(89)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: tuple.index(x): x not in tuple
+>>>
+>>>
+>>> input()
+kavishan
+'kavishan '
+>>> c = input()
+kajaanan
+>>> print(c)\
+... ;
+kajaanan
+>>> print(c)
+kajaanan
+>>> g = int input()
+  File "<stdin>", line 1
+    g = int input()
+            ^^^^^
+SyntaxError: invalid syntax
+>>> g = int.input()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: type object 'int' has no attribute 'input'
+>>> g = input(int)
+<class 'int'>40
+>>> print(g)
+40
+>>> g = input(int)
+<class 'int'>kajaa
+>>> print(g)
+kajaa
+>>> g
+'kajaa'
+>>> lastIndex=c.pop()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'pop'
+>>> arr = [1,2,3]
+>>> lastIndex=arr.pop()
+>>> print(lastIndex)
+3
+>>> name = ("enka irunthu vaaraai: ")
+>>> name = input("enka irunthu vaaraai: ")
+enka irunthu vaaraai: kokuvil
+>>> name
+'kokuvil'
+>>> ^F name
+  File "<stdin>", line 1
+     name
+    ^
+SyntaxError: invalid non-printable character U+0006
+>>> name = input("enter your name")
+enter your namekavi
+>>> name = input("enter your name":)
+  File "<stdin>", line 1
+    name = input("enter your name":)
+                                  ^
+SyntaxError: invalid syntax
+>>> name = input("enter your name":): age = input("enter your age")
+  File "<stdin>", line 1
+    name = input("enter your name":): age = input("enter your age")
+                                  ^
+SyntaxError: invalid syntax
+>>> name = input("enter your name":)\
+  File "<stdin>", line 1
+    name = input("enter your name":)\
+                                  ^
+SyntaxError: invalid syntax
+>>> name = input("enter your name":);\
+  File "<stdin>", line 1
+    name = input("enter your name":);\
+                                  ^
+SyntaxError: invalid syntax
+>>> name = input("enter your name":); age = input("enter your age")
+  File "<stdin>", line 1
+    name = input("enter your name":); age = input("enter your age")
+                                  ^
+SyntaxError: invalid syntax
+>>> name = input("enter your name":)
+  File "<stdin>", line 1
+    name = input("enter your name":)
+                                  ^
+SyntaxError: invalid syntax
+>>> name = input("enter your name:"); age = input("enter your age:")
+enter your name:3
+enter your age:23
+>>> items = ["ap","or"]
+>>> for friut in items: ;
+  File "<stdin>", line 1
+    for friut in items: ;
+                        ^
+SyntaxError: invalid syntax
+>>> for friut in items: ; print(fruit)
+  File "<stdin>", line 1
+    for friut in items: ; print(fruit)
+                        ^
+SyntaxError: invalid syntax
+>>> for friut in items: ; print(items)
+  File "<stdin>", line 1
+    for friut in items: ; print(items)
+                        ^
+SyntaxError: invalid syntax
+>>> for friut in items: ; print(items)
+  File "<stdin>", line 1
+    for friut in items: ; print(items)
+                        ^
+SyntaxError: invalid syntax
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> age = input("enter your age: ")
+enter your age: 40
+>>> type(age)_
+  File "<stdin>", line 1
+    type(age)_
+             ^
+SyntaxError: invalid syntax
+>>> type(age)
+<class 'str'>
+>>> type(int(age))
+<class 'int'>
+>>> age
+'40'
+>>> age = int(age)
+>>> age
+40
+>>> age+kaj
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'kaj' is not defined
+>>> age+"kaj"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> age = str(age)
+>>> age
+'40'
+>>> age+"kaj"
+'40kaj'
+>>> age = int(age)
+>>> age
+40
+>>> age = str(age)
+>>> age
+'40'
+>>> age = age+"kaj2020"
+>>> age
+'40kaj2020'
+>>> age = int(age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '40kaj2020'
+>>> age1 = int(input("age:"))
+age:30
+>>> age
+'40kaj2020'
+>>> age1
+30
+>>> ls = "10,20,30,40"
+>>> ls[0]
+'1'
+>>> ls
+'10,20,30,40'
+>>> ls.split(",")
+['10', '20', '30', '40']
+>>> l = "kaja aa nan"
+>>> l
+'kaja aa nan'
+>>> l.split(" ")
+['kaja', 'aa', 'nan']
+>>> ls3 = "10|20|30|40
+  File "<stdin>", line 1
+    ls3 = "10|20|30|40
+          ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> ls3 = "10|20|30|40"
+>>>
+>>> ls3
+'10|20|30|40'
+>>> ls3.split()
+['10|20|30|40']
+>>> ls3
+'10|20|30|40'
+>>> ls3.split("|")
+['10', '20', '30', '40']
+>>> ls3
+'10|20|30|40'
+>>> ls3=ls3.split("|")
+>>> ls3
+['10', '20', '30', '40']
+>>>
+>>> txt = input("Enter the string : ")
+Enter the string : 10|20|30
+>>> txt
+'10|20|30'
+>>> txt.split("|")
+['10', '20', '30']
+>>> txtl = txt.split("|")
+>>> type(txt1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'txt1' is not defined. Did you mean: 'txt'?
+>>> type(txtl)
+<class 'list'>
+>>> list(txt)=list(int(txt))
+  File "<stdin>", line 1
+    list(txt)=list(int(txt))
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+>>> list(txtl) = list(int(txtl))
+  File "<stdin>", line 1
+    list(txtl) = list(int(txtl))
+    ^^^^^^^^^^
+SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+>>> txtl[0]=int(txtl[0])
+>>> txtl[0]
+10
+>>> txt.insert(1,int(txt[0])
+... ;
+  File "<stdin>", line 2
+    ;
+    ^
+SyntaxError: invalid syntax
+>>> txt.insert(1,int(txt[0]))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'insert'
+>>> txtl.insert(1,int(txt[0]))
+>>> txtl
+[10, 1, '20', '30']
+>>> txtl.insert(int(txt[0]),1)
+>>> txtl
+[10, 1, 1, '20', '30']
+>>>
+>>> txta = ["10","20","30"]
+>>> txta
+['10', '20', '30']
+>>> txta[1]
+'20'
+>>> txta.insert(1,int(txt[1])
+... )
+>>> txta
+['10', 0, '20', '30']
+>>> txta.insert(1,int(txta[1]))
+>>> txta
+['10', 0, 0, '20', '30']
+>>>
+KeyboardInterrupt
+>>>
+>>>
+>>> txt = ["10","20","30"]
+>>> txt
+['10', '20', '30']
+>>> txt.insert(0,int(txt[0])
+... )
+>>> txt
+[10, '10', '20', '30']
+>>> txt.remove(10)
+>>> txty
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'txty' is not defined. Did you mean: 'txt'?
+>>> txt
+['10', '20', '30']
+>>> list(map(int,input().split(',')))
+list
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'list'
+>>> txt(map(int,input().split(',')))
+txta
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'list' object is not callable
+>>> txt
+['10', '20', '30']
+>>> txt = list(map(int,txt))
+>>> txt
+[10, 20, 30]
+>>> txt = list(map(str,txt))
+>>> txt
+['10', '20', '30']
+>>> txt = list(map(int,txt))
+>>> txt
+[10, 20, 30]
+>>> values = list(map(int,input("enter the string: ").split("|")))
+enter the string: 10,20,30
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '10,20,30'
+>>> values = list(map(int,input("enter the string: ").split("|")))
+enter the string: "10|20|40|30"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '"10'
+>>> values = list(map(int,input("enter the string: ").split("|")))
+enter the string: "10|20|30"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '"10'
+>>> 10|20|30
+30
+>>> values = list(map(int,input("enter the string: ").split("|")))
+enter the string: 10|20|40|30
+>>> values
+[10, 20, 40, 30]
+>>> arr = ["10","20","30"]
+>>> arr
+['10', '20', '30']
+>>> int(arr)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+>>> arr1 = list(map(int,arr))
+>>> arr1
+[10, 20, 30]
+>>> arr2 = list(map(int,input("enter the string: ").split(",")))
+enter the string: 10,20,30,40
+>>> arr2
+[10, 20, 30, 40]
+>>>
