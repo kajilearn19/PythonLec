@@ -1,0 +1,67 @@
+tu = ("John",24,"jaffna")
+        NAME AGE  CITY
+now we want to print these thani thaniya 
+
+t.append - serkurathu
+
+mutable - maatra kooodiyathu 
+
+If we use the data stuction and that dont have to be modify - we can use tuple 
+
+t1 = ("ravi",23,"jaffna")
+t1[0] [1] [2] endu edukalaam thani thani ya or .....
+unpack == :  name,age,place = t1;
+
+Hash - unique kaa use panrathu 
+print(hash("hello"))    =  -891984325
+print(hash(123)) = 123  
+
+
+hash([1,2,5]) 
+hash((1,2,5))
+
+immutable - cant be changed - athaye naankal key values saa use panram
+
+S1 = {'ATG','ACG','AGG'}
+S2 = {'ATG','ACC','AGG'}
+
+S1&S2
+S1|S2
+S1-S2
+
+keys() = return all the keys in dictionary
+values() = return all the values in dictionary
+
+name = kajaanan
+
+for i in name : print(i) - ella eluthum print aahum
+
+now len without len : how ??
+in java for (i=0; i++ ) - last i = last value == that is the count  
+
+len venum - ethina thadava loop run aahuthu endathu thaan venum 
+
+count=0
+for i in name:
+     count=count+1
+print(count)
+
+
+for i in gene:
+...     if (i=='A'): a=a+1
+...     if (i=='C'): c=c+1
+...     if (i=='G'): g=g+1
+...
+>>> display = {"A":a,"G":g,"C":c}
+>>> display
+{'A': 3, 'G': 1, 'C': 4}
+
+
+we dont know what letters stirng contains 
+for letter in gene 
+count has to be specific to each (each letter has a seperate letter count)
+every time we see a letter , increase the count of that letter 
+all the counts start with zero 
+
+
+
