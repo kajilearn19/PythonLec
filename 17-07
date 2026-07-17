@@ -1,0 +1,39 @@
+print("even")
+
+for i in range(0,11):
+    if i%2==0:
+        print(i)
+        
+print("odd")
+        
+for i in range(0,10):
+    if i%2==0:
+        print(i)
+        
+print("sum")
+
+total=0
+for i in range(1,11):
+    total+=1
+print("Sum=",total)
+
+print("factorial")
+
+x = int(input("Enter the number:"))
+fact=1
+for i in range(1,x+1):
+    fact = fact*i
+print("factorial of",x,"is",fact)
+
+print("multiplication table")
+
+for i in range(1,11):
+    print(x,"x",i,"=",(x*i))
+
+list = [3,4,2,4,6,7]
+min=list[0]
+
+for i in range(1,len(list)):
+    if (list[i]<min):
+        min=list[i]
+print(min,"index:",i)
