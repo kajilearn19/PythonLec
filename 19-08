@@ -1,0 +1,79 @@
+from Bio import Align 
+
+aligner.mode = object
+
+car naa 
+color irukum
+type irukum
+make irukum
+speed irukum
+
+car class la oru method call panna poram - calculateTime(distance)
+
+python class 
+-----------------------------
+
+class Car:
+    def __init__ (self,color,speed):
+        self.color=color
+        self.speed=speed
+    def getColour(self):
+        return self.color
+    
+    def info(self):
+        print("color:",self.color," speed:",self.speed)
+
+car1 = Car("red","soyng")
+car1.info()
+print(car1.color)
+print(car1.speed)
+print(car1.getColour())
+
+ 
+------------------------------------------------------
+
+
+class Car : 
+    color="blue" 
+    speed=15
+    type="sport"
+
+    def __init__ (self):
+        pass
+        
+
+    def getColor(self):
+        return self.color
+     
+    def calculateTime(self):
+        distance = 50
+        return distance/self.speed
+
+    def calculateTime1(self,distance):
+        return distance/self.speed
+    
+car1 = Car()
+print(car1.calculateTime())
+print(car1.calculateTime1(40))
+
+------------------------------------------------------------
+
+here we use the constructor __init__ with some parameters 
+but here aligner = PairwiseAligner() = we dont use any parameters but this is a constructor
+
+-----------------------------------------------------------------
+class Align:
+    match_score = 2
+    mismatch_score = -1
+    gap_score = -2
+    mode="local"
+
+    def __init__(self):
+        pass
+
+    def align (self,seq1,seq2)
+        if.self.mode=="local":
+          ithula palaya code elllam elutha poram ...
+          with match_score -> self.match_score
+
+
